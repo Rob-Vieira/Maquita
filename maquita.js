@@ -1,7 +1,8 @@
-/*!
- * Maquita v1.0
- * Robson Vieira - 2023-08-09 - Brasil
- * https://github.com/Rob-Vieira
+/*
+ * Maquita v1.0 (https://github.com/Rob-Vieira/maquita)
+ * Robson Vieira (https://github.com/Rob-Vieira)
+ * 
+ * 2023-08-09 - Brasil
  * 
  * Aqui jaz Upfile.php, sempre em nossos corações.
  */
