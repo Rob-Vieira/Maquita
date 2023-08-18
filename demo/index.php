@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="https://unpkg.com/cropperjs/dist/cropper.css">
 </head>
 <body>
-    <input type="file" class="maquita" data-name="landscape" data-w="108" data-h="192">
-    <input type="file" class="maquita" data-name="wide" data-w="192" data-h="108">
-
+    
     <form action="./demo/upload.php" method="post">
+        <input type="file" class="maquita" data-src="./demo/demo.jpg" data-name="landscape" data-w="108" data-h="192">
+        <input type="file" class="maquita" data-name="wide" data-w="192" data-h="108">
+        <button type="submit">SEND</button>
+    </form>
+    
+    <form class=".form2" action="./demo/upload.php" method="post">
+        <input type="file" class="maquita" data-name="landscape" data-w="108" data-h="192">
+        <input type="file" class="maquita" data-name="wide" data-w="192" data-h="108">
         <button type="submit">SEND</button>
     </form>
 
@@ -21,6 +27,12 @@
         new Maquita({
             target: '.maquita',
             form: 'form',
+            // cropClass: 'maquita'
+        });
+        
+        new Maquita({
+            target: '.maquita2',
+            form: '.form2',
             // cropClass: 'maquita'
         });
     </script>
